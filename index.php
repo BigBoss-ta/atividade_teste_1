@@ -9,10 +9,10 @@ $db = "sistema_simples";
 $conn = new mysqli($host,$user,$pass,$db);
 
 if ($conn->connect_error){
-    echo "<script>console.log('error na conexão com o banco');<\script>";
+    echo "<script>console.log('error na conexão com o banco');</script>";
 }
 else{
-    echo "<script>console.log('conexão com banco foi um sucesso');<\script>";
+    echo "<script>console.log('conexão com banco foi um sucesso');</script>";
 }
 
 ?>
